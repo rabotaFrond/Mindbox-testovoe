@@ -1,0 +1,14 @@
+{
+  "files": [],
+  "references": [
+    { "path": "./tsconfig.app.json" },
+    { "path": "./tsconfig.node.json" }
+  ],
+  "compilerOptions": {
+    "types": ["jest", "node"],
+    "jsx": "react-jsx", // Или "react", если используешь старую версию React
+    "esModuleInterop": true, // Для правильного импорта
+    "strict": true, // Включаем строгую проверку типов (если нужно)
+    "moduleResolution": "node"
+  }
+}
